@@ -9,10 +9,6 @@ html {
     padding: 0;
 }
 
-/* body { */
-    /* background-color: white; */
-/* } */
-
 .site {
     display: grid;
     grid-template-columns: auto repeat(12 , 3.5rem) auto;
@@ -21,54 +17,6 @@ html {
     /* border: 1px solid black; */
 }
 
-/* Ако site-header не е с display: grid */
-
-/* .site-header {
-    grid-column: 1 / -1;
-    grid-row: 1;
-    background-image: url(header-back.jpg);
-}
-
-.nav {
-    display: flex;
-    width: 46rem;
-    padding: 1rem 0;
-    margin: 0 auto;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-
-.nav ul {
-    display: flex;
-    margin-left: auto;
-}
-
-.nav li {
-    display: block;
-    list-style: none;
-    padding: 0.3rem 0;
-}
-
-.nav a {
-    text-decoration: none;
-    padding: 0.7rem 1rem;
-    color: #fff; 
-}
-
-.nav a:hover {
-    color: rgba(43, 46, 74, 0.95);
-    background-color: #fff;
-    border-radius: 0.3rem;
-} */
-
-/* Край */
 
 .site-header {
     grid-column: 1 / -1;
@@ -95,12 +43,6 @@ html {
     /* display: block; */
     align-content: center;
 }
-
-/* .logo img {
-    display: block;
-    width: 100%;
-    height: 100%;
-} */
 
 .nav ul {
     /* grid-column: 8 / span 6;
@@ -251,18 +193,11 @@ html {
     grid-column: 1 / -1;
     grid-row: 2;
     background-color: #fff;
-    /* display: flex;
-    flex-wrap: wrap; */
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(2, 13.6rem);
     grid-gap: 0.05rem;
 }
-
-/* .work {
-    flex: 0 0 25%;
-    height: 50%;    
-} */
 
 .work img {
     width: 100%;
@@ -280,12 +215,7 @@ html {
 .our-team .member {
     width: 13.5rem;
     margin: 5.9rem auto;
-    /* margin-right: 1.6rem; */
 }
-
-/* .our-team .member:last-child {
-    margin-right: 0;
-} */
 
 .our-team .member img {
     width: 100%;
@@ -337,7 +267,6 @@ html {
 .testimonials {
     grid-column: 1 / -1;
     grid-row: 4;
-    /* background-color: lightsalmon; */
     display: flex;
 }
 
@@ -461,14 +390,10 @@ html {
     display: flex;
     flex-wrap: wrap;
 }
-/* 3.6rem */
 
  .location {
      flex: 0 0 33%;
      margin: 4rem auto 6rem auto;
-    /* grid-column: 3 / 4; */
-    /* grid-row: 1; */
-    /* padding: 4rem 6rem 6rem 6rem; */
 }
 
 .site-footer h4 {
@@ -502,15 +427,11 @@ html {
 .social {
     flex: 0 0 33%;
     margin: 4rem auto 6rem auto;
-    /* grid-column: 5 / 4; */
-    /* grid-row: 1; */
 }
 
 .about {
     flex: 0 0 33%;
     margin: 4rem auto 6rem auto;
-    /* grid-column: 10 / 4; */
-    /* grid-row: 1; */
 }
 
 .footer-bottom {
@@ -521,10 +442,7 @@ html {
 }
 
 .createdBy {
-    /* grid-column: 5 / 4;
-    grid-row: 2; */
     margin: 1.5rem auto;
-    /* flex: 0 0 33%; */
 }
 
 .createdBy p {
