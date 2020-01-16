@@ -17,8 +17,6 @@ html {
 body {
     display: grid;
     grid-template-columns: 1fr repeat(12, 0.27fr) 1fr;
-    /* grid-template-rows: 1fr auto auto auto 0.7fr auto 0.5fr 0.2fr; */
-	/* grid-template-rows: 35rem auto auto auto 25rem auto 17rem 6rem; */
     grid-column-gap: 0.02fr;
 }
 
@@ -43,23 +41,21 @@ p {
 }
 
 .site-header nav {
-    display: flex;
-    width: 65%;
-    margin: 0 auto;
-    padding: 0.75rem 0;
-	border-bottom: 2px solid rgba(168, 168, 168, 0.2);
-	/* align-content: center;
-	align-items: center; */
+   display: flex;
+   width: 65%;
+   margin: 0 auto;
+   padding: 0.75rem 0;
+   border-bottom: 2px solid rgba(168, 168, 168, 0.2);
 }
 
 .site-header nav .logo {
-	display: flex;
-	width: 12.5rem;
+    display: flex;
+    width: 12.5rem;
 }
 
 .site-header nav .logo img {
-	width: 100%;
-	height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .site-header nav ul {
@@ -75,7 +71,7 @@ p {
 .site-header nav a {
     padding: 0.5rem;
     opacity: 0.75;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: bold;
     text-align: left;
     color: rgba(255, 255, 255, 0.75);
@@ -102,16 +98,13 @@ p {
     font-size: 3em;
     font-weight: bold;
     line-height: 1.09;
-    /* text-align: center; */
     color: #fff;
 }
 
 .site-header .title p {
-    line-height: 1.5;
-    /* text-align: center; */
     color: #fff;
     margin: 2rem auto 3rem auto;
-    padding: 0 2rem;
+    padding: 0 3rem;
 }
 
 .site-header .title a {
@@ -422,7 +415,7 @@ p {
 .footer-bottom .heart:before {
     display: inline-block;
     content: 'Y';
-    font-family: Webdings;
+    font-family: 'Webdings';
     color: #e84545;
 }
     
@@ -442,16 +435,16 @@ p {
         font-size: 10px;
     }
 	
-	.site-header nav ul {
+   .site-header nav ul {
 		display: none;
 	}
 	
-	.feature, .member {
+   .feature, .member {
         flex: 0 0 45%;
 	    margin-top: 1.5rem;
     }
 
-    .site-footer {
+   .site-footer {
         padding: 2rem 3rem;
     }
 }
@@ -459,14 +452,14 @@ p {
 @media (max-width: 480px) {
     html {
         font-size: 6px;
-	}
+    }
 	
-	.works {
-		margin-top: 4rem;
-	}
+   .works {
+	margin-top: 4rem;
+   }
 	
-		.feature, .member {
-		 flex: 0 0 55%;
+   .feature, .member {
+	flex: 0 0 55%;
     }
 
     .download h3 {
